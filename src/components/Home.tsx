@@ -65,7 +65,7 @@ const Home: React.FC<Props> = () => {
   return (
     <div className={containerClass}>
       <Box action={action} />
-      <div className="flex">
+      <div className="flex flex-col sm:flex-row items-center">
         <h1 className={headerClass}>WISPR TO CONTROL</h1>
         <Icon
           icon="ri:speak-line"
