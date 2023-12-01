@@ -40,7 +40,6 @@ const Box: React.FC<BoxProps> = ({ action }) => {
         case "four":
           setSize({ width: 170, height: 170 });
           break;
-        // Add cases for other commands
         default:
           break;
       }
@@ -51,6 +50,7 @@ const Box: React.FC<BoxProps> = ({ action }) => {
   // Tailwind Class
   const boxClass =
     "relative transition-all ease duration-500 bg-black mb-5 rounded-lg";
+
   return (
     <div
       className={boxClass}

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import Home from '@/components/Home'
+
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -21,10 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="">
-      <div className="h-screen bg-gradient-to-tr from-rose-100 to-teal-100">
-          <Home />
-      </div>
+      <body>
         {children}</body>
     </html>
   )
