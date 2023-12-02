@@ -59,7 +59,7 @@ const Main: React.FC<Props> = () => {
     "tracking-widest text-center font-sans flex text-3xl font-bold text-black z-10 select-none";
   const subHeaderClass =
     "tracking-widest font-sans flex text-xl font-bold text-black z-10 text-center select-none";
-  const commandTextClass = "text-xs font-medium text-gray-500 p-2 text-center";
+  const commandTextClass = "text-xs font-medium text-gray-500 p-2 text-center select-none";
   const iconClass = `hover:scale-110 ease-in-out transition delay-50 cursor-pointer hover:text-yellow-400 pb-[1.5%] ${
     activateListener ? "text-black" : "text-red-600"
   }`;
